@@ -1,0 +1,406 @@
+2017-07-28 13:01:41 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 [internal function]: App::load('MeserosControll...')
+#1 [internal function]: spl_autoload_call('MeserosControll...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(266): class_exists('MeserosControll...')
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-07-28 14:42:54 Error: [MissingActionException] Action MeserosController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'ver',
+)
+Request URL: /restaurante/meseros/ver
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-07-28 14:45:31 Error: [MissingActionException] Action MeserosController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'ver',
+)
+Request URL: /restaurante/meseros/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-07-31 14:49:12 Error: [Error] Call to undefined function notFoundException()
+Request URL: /restaurante/meseros/ver/1
+Stack Trace:
+#0 [internal function]: MeserosController->ver('1')
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-07-31 14:49:53 Error: [Error] Call to a member function findById() on null
+Request URL: /restaurante/meseros/ver/1
+Stack Trace:
+#0 [internal function]: MeserosController->ver('1')
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-07-31 14:51:01 Error: [Error] Call to a member function findById() on null
+Request URL: /restaurante/meseros/ver/1
+Stack Trace:
+#0 [internal function]: MeserosController->ver('1')
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-01 09:52:59 Error: [ParseError] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 [internal function]: App::load('Mesero')
+#1 [internal function]: spl_autoload_call('Mesero')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Mesero')
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Mesero')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Mesero')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Mesero', 'key')
+#6 C:\xampp\htdocs\restaurante\app\View\Meseros\nuevo.ctp(4): FormHelper->create()
+#7 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#13 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-01 10:54:43 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Layouts\default.ctp(45): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(481): View->renderLayout('<h2>Crear Meser...', 'default')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, 'default')
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-08-01 11:08:06 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Layouts\default.ctp(45): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(481): View->renderLayout('<h2> Lista de m...', 'default')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, 'default')
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-08-01 11:13:24 Error: [MissingControllerException] Controller class NuevoController could not be found.
+Exception Attributes: array (
+  'class' => 'NuevoController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-08-01 11:14:25 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp(1): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#7 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-08-01 11:14:46 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp(1): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#7 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-08-01 11:21:11 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Layouts\default.ctp(45): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(481): View->renderLayout('\r\n<h2>Crear Mes...', 'default')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, 'default')
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-08-01 11:22:32 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Layouts\default.ctp(45): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(481): View->renderLayout('\r\n<h2>Crear Mes...', 'default')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, 'default')
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-08-01 11:23:05 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Meseros\nuevo.ctp(1): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#7 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-08-01 11:24:00 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Meseros\nuevo.ctp(1): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#7 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-08-01 11:24:40 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Meseros\nuevo.ctp(1): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#7 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-08-01 11:26:23 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp(1): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#7 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-08-01 11:37:25 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Layouts\default.ctp(45): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(481): View->renderLayout('\r\n<h2>Crear Mes...', 'default')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, 'default')
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-08-01 11:44:35 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Layouts\default.ctp(45): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(481): View->renderLayout('\r\n<h2>Crear Mes...', 'default')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, 'default')
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-08-01 11:51:54 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Layouts\default.ctp(45): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(481): View->renderLayout('\r\n<h2>Crear Mes...', 'default')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, 'default')
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-08-01 11:52:07 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Layouts\default.ctp(45): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(481): View->renderLayout('\r\n<h2>Crear Mes...', 'default')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, 'default')
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-08-01 12:07:31 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Layouts\default.ctp(45): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(481): View->renderLayout('\r\n<h2>Crear Mes...', 'default')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, 'default')
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-08-01 12:11:55 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Layouts\default.ctp(45): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(481): View->renderLayout('\r\n<h2> Lista de...', 'default')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, 'default')
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-08-01 12:19:47 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Layouts\default.ctp(45): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(481): View->renderLayout('\r\n<h2>Crear Mes...', 'default')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, 'default')
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-08-01 12:20:17 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp(1): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#7 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-08-01 12:35:02 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Layouts\default.ctp(45): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(481): View->renderLayout('\r\n<h2> Lista de...', 'default')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, 'default')
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-08-01 12:42:16 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 [internal function]: App::load('MeserosControll...')
+#1 [internal function]: spl_autoload_call('MeserosControll...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(266): class_exists('MeserosControll...')
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-01 12:51:12 Error: [MissingActionException] Action MeserosController::nueco() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'nueco',
+)
+Request URL: /restaurante/meseros/nueco
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-08-01 12:53:09 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\View\Layouts\default.ctp(45): FlashHelper->render()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(481): View->renderLayout('\r\n<h2>Crear Mes...', 'default')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, 'default')
+#6 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#8 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-08-01 12:53:26 Error: [Error] Call to undefined method SessionComponent::set()
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 [internal function]: MeserosController->nuevo()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-01 12:53:47 Error: [Error] Unsupported operand types
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php(34): FlashComponent->set('No se pudo crea...', 0)
+#1 [internal function]: MeserosController->nuevo()
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#5 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-08-01 12:55:55 Error: [ParseError] syntax error, unexpected ''numeric'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 [internal function]: App::load('Mesero')
+#1 [internal function]: spl_autoload_call('Mesero')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Mesero')
+#3 C:\xampp\htdocs\restaurante\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Mesero')
+#4 C:\xampp\htdocs\restaurante\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Mesero')
+#5 C:\xampp\htdocs\restaurante\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Mesero', 'key')
+#6 C:\xampp\htdocs\restaurante\app\View\Meseros\nuevo.ctp(5): FormHelper->create('Mesero')
+#7 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#11 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#13 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-08-02 14:42:33 Error: [MethodNotAllowedException] INCORRECTO
+Request URL: /restaurante/meseros/eliminar/5
+Stack Trace:
+#0 [internal function]: MeserosController->eliminar('5')
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
